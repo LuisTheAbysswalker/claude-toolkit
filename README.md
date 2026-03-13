@@ -10,7 +10,6 @@ General-purpose development skills and commands for [Claude Code](https://docs.a
 | **fastify-best-practices** | Fastify server development: routes, plugins, validation, hooks, security, deployment |
 | **node-best-practices** | Node.js with TypeScript: type stripping, async patterns, error handling, streams, testing, performance |
 | **typescript-magician** | Advanced TypeScript: generics, conditional types, type guards, utility types, error diagnosis |
-| **code-review-expert** | Expert code review of git changes: SOLID violations, security risks, actionable improvements |
 | **excalidraw-diagram** | Generate Excalidraw diagrams: flowcharts, mind maps, timelines, with Obsidian/standard/animated modes |
 | **mermaid-visualizer** | Transform text into Mermaid diagrams: process flows, sequences, state diagrams, with syntax error prevention |
 | **obsidian-canvas-creator** | Create Obsidian Canvas files with MindMap or freeform layouts |
@@ -20,6 +19,7 @@ General-purpose development skills and commands for [Claude Code](https://docs.a
 | Command | Description |
 |---------|-------------|
 | `/til [topic]` | Save a TIL (Today I Learned) note to Obsidian knowledge base with Diataxis classification |
+| `/review [PR]` | Expert code review of current git changes or a specific PR with SOLID, security, and quality checks |
 
 ## Installation
 
@@ -46,6 +46,7 @@ claude-toolkit/
 ├── .claude-plugin/
 │   └── plugin.json
 ├── commands/
+│   ├── review.md
 │   └── til.md
 ├── skills/
 │   ├── code-review-expert/
