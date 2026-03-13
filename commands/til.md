@@ -4,7 +4,7 @@ allowed-tools: Write, Read, Glob, Skill
 argument-hint: [topic]
 ---
 
-Save a knowledge note to the TIL vault at `/Users/lu/Github/til/`.
+Save a knowledge note to the TIL vault at the path specified by the `TIL_VAULT_PATH` environment variable. If not set, default to `~/Github/til`.
 
 ## Instructions
 

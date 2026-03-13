@@ -30,6 +30,15 @@ General-purpose development skills and commands for [Claude Code](https://docs.a
 
 Then restart Claude Code to load the skills.
 
+### Configure `/til` vault path
+
+The `/til` command saves notes to your Obsidian vault. Set the `TIL_VAULT_PATH` environment variable to point to your vault directory (defaults to `~/Github/til` if not set):
+
+```bash
+# Add to your ~/.zshrc or ~/.bashrc
+export TIL_VAULT_PATH="$HOME/path/to/your/til-vault"
+```
+
 ## File Structure
 
 ```
