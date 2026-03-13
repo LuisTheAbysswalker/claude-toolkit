@@ -10,6 +10,7 @@ General-purpose development skills and commands for [Claude Code](https://docs.a
 | **fastify-best-practices** | Fastify server development: routes, plugins, validation, hooks, security, deployment |
 | **node-best-practices** | Node.js with TypeScript: type stripping, async patterns, error handling, streams, testing, performance |
 | **typescript-magician** | Advanced TypeScript: generics, conditional types, type guards, utility types, error diagnosis |
+| **coding-standards** | Enforces P0/P1 coding standards while writing code: security, error handling, performance, boundary conditions, race conditions |
 | **excalidraw-diagram** | Generate Excalidraw diagrams: flowcharts, mind maps, timelines, with Obsidian/standard/animated modes |
 | **mermaid-visualizer** | Transform text into Mermaid diagrams: process flows, sequences, state diagrams, with syntax error prevention |
 | **obsidian-canvas-creator** | Create Obsidian Canvas files with MindMap or freeform layouts |
@@ -50,6 +51,7 @@ claude-toolkit/
 │   └── til.md
 ├── skills/
 │   ├── code-review-expert/
+│   ├── coding-standards/
 │   ├── documentation/
 │   ├── excalidraw-diagram/
 │   ├── fastify-best-practices/
