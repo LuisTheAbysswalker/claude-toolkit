@@ -1,0 +1,10 @@
+{
+  "name": "claude-toolkit",
+  "description": "General-purpose development skills and commands: documentation (Diataxis), Fastify, Node.js, TypeScript best practices, and TIL knowledge management.",
+  "author": {
+    "name": "Luis"
+  },
+  "version": "1.0.0",
+  "license": "MIT",
+  "category": "development"
+}
